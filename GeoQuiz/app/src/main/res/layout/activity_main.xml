@@ -12,7 +12,7 @@
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:padding="24dp"
-		tools:text="@string/question_australia"/>
+		tools:text="@string/question_numpanels"/>
 
 	<LinearLayout
 		android:layout_width="wrap_content"
@@ -24,15 +24,22 @@
 			android:id="@+id/true_button"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
-			android:text="@string/true_button" />
+			android:text="@string/true_button"/>
 
 		<Button
 			android:id="@+id/false_button"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
-			android:text="@string/false_button" />
+			android:text="@string/false_button"/>
 
 	</LinearLayout>
+
+	<TextView
+		android:id="@+id/question_correct_view"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:padding="24dp"
+		tools:text="@string/unanswered_string"/>
 
 	<Button
 		android:id="@+id/cheat_button"
@@ -64,6 +71,23 @@
 
 	</LinearLayout>
 
+	<LinearLayout
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal">
 
+		<Button
+			android:id="@+id/reset_button"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/reset_button"/>
+
+		<Button
+			android:id="@+id/score_button"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/score_button"/>
+
+	</LinearLayout>
 
 </LinearLayout>
