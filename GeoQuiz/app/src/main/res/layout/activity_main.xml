@@ -38,7 +38,7 @@
 		android:id="@+id/question_correct_view"
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
-		android:padding="24dp"
+		android:padding="6dp"
 		tools:text="@string/unanswered_string"/>
 
 	<Button
@@ -86,7 +86,7 @@
 			android:id="@+id/score_button"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
-			android:text="@string/score_button"/>
+			android:text="@string/score_button" />
 
 	</LinearLayout>
 
